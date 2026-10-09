@@ -1,0 +1,126 @@
+/home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/helper/raisim_gym_helper.py:66: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(weight_path, map_location=torch.device('cpu') )
+Configuration file: "cfg_reg.yaml"
+Experiment name: "floating_evaluation"
+pos_bias:  [[ 4.10885062e-02 -6.90639859e-02 -1.37707943e-01]
+ [-1.45041709e-01  9.39810718e-02  1.23826673e-01]
+ [ 3.19907327e-02  6.88489683e-02  1.30874974e-02]
+ [ 1.30521727e-01  9.47560662e-02 -1.49178450e-01]
+ [ 1.07221283e-01 -1.39924327e-01  6.88966339e-02]
+ [-9.73033138e-02  1.08953677e-01  1.24383661e-02]
+ [-6.00864328e-02 -2.31938336e-02 -1.41504099e-01]
+ [-1.12715017e-01  5.11873244e-02  4.41568535e-02]
+ [ 3.46155334e-02 -3.48967337e-02  1.49162981e-01]
+ [ 1.44250602e-01  5.56625953e-02  4.51377829e-02]
+ [ 5.65340192e-02 -3.33235728e-02 -1.09471048e-01]
+ [ 6.64465021e-02  7.60629674e-03 -5.69274373e-02]
+ [-4.24939235e-03  1.16846350e-01  1.30213055e-01]
+ [-4.26614410e-02  2.14589492e-02 -5.34391827e-02]
+ [ 2.82900091e-02 -4.86266323e-02 -3.25142998e-02]
+ [ 1.17082306e-01 -8.18527219e-02  3.69561434e-02]
+ [-1.24795397e-01  9.97932443e-02  8.61294922e-02]
+ [-7.81891671e-02  1.12945269e-01 -1.32429590e-01]
+ [-4.91648818e-02 -1.04916160e-01 -1.48981900e-02]
+ [ 8.88972811e-02 -8.08073373e-02 -1.34393610e-01]
+ [-2.86344481e-02 -9.04460866e-02 -1.22774086e-01]
+ [ 2.40997158e-02 -6.03911602e-02  5.15984634e-02]
+ [-9.01453668e-02  1.32633933e-01 -4.04669495e-02]
+ [-1.18351416e-01  3.87324455e-02  1.28146366e-01]
+ [-1.78868536e-02  1.36377148e-01 -3.12558937e-05]
+ [-2.24314125e-02  3.60640356e-02  1.48528952e-01]
+ [ 1.34683102e-01 -1.19864582e-02  7.73186536e-02]
+ [-7.73191354e-04  8.79364806e-03  8.57357102e-02]
+ [-2.56032452e-02  7.03450715e-02  6.33428634e-02]
+ [ 1.29617906e-01 -1.15520210e-01  6.87045351e-02]]
+angle_bias:  [[ 0.25645436  0.28075571 -0.29117622]
+ [ 0.21818405  0.28871702  0.27432611]
+ [-0.21074159  0.28357729  0.23396133]
+ [ 0.1934243  -0.01200725 -0.16057625]
+ [ 0.18112835  0.2541181  -0.14032184]
+ [ 0.02336064 -0.0343483   0.25861039]
+ [-0.27569357  0.13920372  0.06862395]
+ [-0.28298078  0.13153186 -0.29040496]
+ [ 0.1547706   0.00765523  0.25746253]
+ [-0.2603505   0.20479037 -0.25998599]
+ [-0.09341401 -0.04182076  0.27963725]
+ [ 0.03733911 -0.14468124 -0.15499457]
+ [ 0.23287099 -0.16447834 -0.22526718]
+ [-0.12700155  0.05167384  0.0324543 ]
+ [ 0.18582647  0.03628557 -0.12694727]
+ [-0.05226219  0.19087258  0.07590388]
+ [ 0.27544659 -0.07835735  0.03156691]
+ [ 0.05635452  0.20897472 -0.21271588]
+ [-0.0560938   0.24597538 -0.27415987]
+ [ 0.19362377 -0.05076958  0.19788239]
+ [-0.29402726 -0.08097231 -0.25282198]
+ [ 0.09156875 -0.13569054  0.12159124]
+ [ 0.26628086 -0.22390974  0.21886698]
+ [-0.26432151 -0.0715377  -0.04213556]
+ [-0.00669027  0.28587739  0.16541471]
+ [-0.11468558 -0.13809793  0.21787212]
+ [ 0.2287843   0.0064239  -0.09342256]
+ [ 0.29695041 -0.11043387 -0.19037257]
+ [ 0.22805887  0.18740124  0.10073364]
+ [ 0.27504818  0.25542875  0.1489491 ]]
+test set
+microwave
+4
+11
+ 
+seq_num:  2
+seq_name:  microwave_use_01_retake
+init_frame:  441
+grasp_frame:  464
+kind:  right_arti
+['microwave', 'microwave', 'microwave', 'microwave', 'microwave']
+num envs 5
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-12-05/../../../general_two/2023-05-15-10-18-54/full_350_l.pt
+
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-12-05/../../../general_two/2023-05-15-10-18-54/full_350_r.pt
+
+seq_num:  2
+seq_name:  microwave_use_01_retake
+init_frame:  441
+grasp_frame:  464
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 1. 0.]]
+succeed:  [[1. 1. 1. 1. 0.]]
+average angle differnence:  [[0.5770004  0.3821375  0.54128104 0.82432956 1.0418296 ]]
+average simulated distance:  [[0.0068751  0.00647499 0.006551   0.00645499 0.00660754]]
+final angle differnence:  [[1.1628526  1.2183365  0.23760276 0.46266568 0.16250254]]
+seq_num:  7
+seq_name:  microwave_use_02
+init_frame:  488
+grasp_frame:  513
+kind:  right_arti
+end
+succeed once:  [[1. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.17656568 0.11266036 1.8000352  2.3973944  2.996145  ]]
+average simulated distance:  [[0.00262915 0.00253266 0.002618   0.00255475 0.0026483 ]]
+final angle differnence:  [[0.19552034 0.03208267 1.7995535  2.3992505  2.9926054 ]]
+seq_num:  2
+seq_name:  microwave_use_01
+init_frame:  625
+grasp_frame:  653
+kind:  right_arti
+end
+succeed once:  [[0. 1. 1. 0. 0.]]
+succeed:  [[0. 1. 1. 0. 0.]]
+average angle differnence:  [[0.09860396 0.12583686 0.5253313  0.88309294 0.73825526]]
+average simulated distance:  [[0.00241846 0.00240748 0.00225978 0.00230705 0.0026927 ]]
+final angle differnence:  [[0.0055893  0.14647165 0.0699523  0.36802316 0.14165293]]
+seq_num:  5
+seq_name:  microwave_use_01
+init_frame:  478
+grasp_frame:  493
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.09971759 0.24970853 1.7995255  2.3995795  2.9995837 ]]
+average simulated distance:  [[0.00386277 0.00385688 0.00382165 0.00386463 0.00389299]]
+final angle differnence:  [[0.09989334 0.2495569  1.7995353  2.3992126  2.9999034 ]]

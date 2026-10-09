@@ -1,0 +1,247 @@
+Configuration file: "cfg_reg.yaml"
+Experiment name: "floating_evaluation"
+pos_bias:  [[ 4.10885062e-02 -6.90639859e-02 -1.37707943e-01]
+ [-1.45041709e-01  9.39810718e-02  1.23826673e-01]
+ [ 3.19907327e-02  6.88489683e-02  1.30874974e-02]
+ [ 1.30521727e-01  9.47560662e-02 -1.49178450e-01]
+ [ 1.07221283e-01 -1.39924327e-01  6.88966339e-02]
+ [-9.73033138e-02  1.08953677e-01  1.24383661e-02]
+ [-6.00864328e-02 -2.31938336e-02 -1.41504099e-01]
+ [-1.12715017e-01  5.11873244e-02  4.41568535e-02]
+ [ 3.46155334e-02 -3.48967337e-02  1.49162981e-01]
+ [ 1.44250602e-01  5.56625953e-02  4.51377829e-02]
+ [ 5.65340192e-02 -3.33235728e-02 -1.09471048e-01]
+ [ 6.64465021e-02  7.60629674e-03 -5.69274373e-02]
+ [-4.24939235e-03  1.16846350e-01  1.30213055e-01]
+ [-4.26614410e-02  2.14589492e-02 -5.34391827e-02]
+ [ 2.82900091e-02 -4.86266323e-02 -3.25142998e-02]
+ [ 1.17082306e-01 -8.18527219e-02  3.69561434e-02]
+ [-1.24795397e-01  9.97932443e-02  8.61294922e-02]
+ [-7.81891671e-02  1.12945269e-01 -1.32429590e-01]
+ [-4.91648818e-02 -1.04916160e-01 -1.48981900e-02]
+ [ 8.88972811e-02 -8.08073373e-02 -1.34393610e-01]
+ [-2.86344481e-02 -9.04460866e-02 -1.22774086e-01]
+ [ 2.40997158e-02 -6.03911602e-02  5.15984634e-02]
+ [-9.01453668e-02  1.32633933e-01 -4.04669495e-02]
+ [-1.18351416e-01  3.87324455e-02  1.28146366e-01]
+ [-1.78868536e-02  1.36377148e-01 -3.12558937e-05]
+ [-2.24314125e-02  3.60640356e-02  1.48528952e-01]
+ [ 1.34683102e-01 -1.19864582e-02  7.73186536e-02]
+ [-7.73191354e-04  8.79364806e-03  8.57357102e-02]
+ [-2.56032452e-02  7.03450715e-02  6.33428634e-02]
+ [ 1.29617906e-01 -1.15520210e-01  6.87045351e-02]]
+angle_bias:  [[ 0.25645436  0.28075571 -0.29117622]
+ [ 0.21818405  0.28871702  0.27432611]
+ [-0.21074159  0.28357729  0.23396133]
+ [ 0.1934243  -0.01200725 -0.16057625]
+ [ 0.18112835  0.2541181  -0.14032184]
+ [ 0.02336064 -0.0343483   0.25861039]
+ [-0.27569357  0.13920372  0.06862395]
+ [-0.28298078  0.13153186 -0.29040496]
+ [ 0.1547706   0.00765523  0.25746253]
+ [-0.2603505   0.20479037 -0.25998599]
+ [-0.09341401 -0.04182076  0.27963725]
+ [ 0.03733911 -0.14468124 -0.15499457]
+ [ 0.23287099 -0.16447834 -0.22526718]
+ [-0.12700155  0.05167384  0.0324543 ]
+ [ 0.18582647  0.03628557 -0.12694727]
+ [-0.05226219  0.19087258  0.07590388]
+ [ 0.27544659 -0.07835735  0.03156691]
+ [ 0.05635452  0.20897472 -0.21271588]
+ [-0.0560938   0.24597538 -0.27415987]
+ [ 0.19362377 -0.05076958  0.19788239]
+ [-0.29402726 -0.08097231 -0.25282198]
+ [ 0.09156875 -0.13569054  0.12159124]
+ [ 0.26628086 -0.22390974  0.21886698]
+ [-0.26432151 -0.0715377  -0.04213556]
+ [-0.00669027  0.28587739  0.16541471]
+ [-0.11468558 -0.13809793  0.21787212]
+ [ 0.2287843   0.0064239  -0.09342256]
+ [ 0.29695041 -0.11043387 -0.19037257]
+ [ 0.22805887  0.18740124  0.10073364]
+ [ 0.27504818  0.25542875  0.1489491 ]]
+test set
+capsulemachine
+21
+22
+ 
+seq_num:  1
+seq_name:  capsulemachine_use_02
+init_frame:  41
+grasp_frame:  303
+kind:  right_arti
+['capsulemachine', 'capsulemachine', 'capsulemachine', 'capsulemachine', 'capsulemachine']
+num envs 5
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-10-30/../../../general_two/2023-05-15-10-18-54/full_350_l.pt
+
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-10-30/../../../general_two/2023-05-15-10-18-54/full_350_r.pt
+
+seq_num:  1
+seq_name:  capsulemachine_use_02
+init_frame:  41
+grasp_frame:  303
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10033899 0.25306302 1.8006955  2.4001825  3.000985  ]]
+average simulated distance:  [[0.00899479 0.00549391 0.00566812 0.00533438 0.00957682]]
+final angle differnence:  [[0.09810467 0.25019184 1.8016226  2.3957953  3.0007205 ]]
+seq_num:  7
+seq_name:  capsulemachine_use_02
+init_frame:  32
+grasp_frame:  377
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10898244 0.25995344 1.8024825  2.408746   3.0084474 ]]
+average simulated distance:  [[0.00509075 0.00513926 0.00438758 0.01734989 0.0146607 ]]
+final angle differnence:  [[0.10925481 0.26052025 1.8046693  2.3998706  3.0025702 ]]
+seq_num:  2
+seq_name:  capsulemachine_use_01
+init_frame:  32
+grasp_frame:  73
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10089768 0.25093544 1.800865   2.4009764  3.000771  ]]
+average simulated distance:  [[0.00192283 0.00196889 0.00203897 0.00193415 0.001813  ]]
+final angle differnence:  [[0.10060858 0.25123078 1.8007303  2.4017951  3.000845  ]]
+seq_num:  10
+seq_name:  capsulemachine_use_02
+init_frame:  323
+grasp_frame:  356
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10955662 0.25922698 1.8032341  2.4044328  3.003261  ]]
+average simulated distance:  [[0.00401268 0.00402224 0.00401934 0.00397686 0.00392857]]
+final angle differnence:  [[0.10946564 0.2566429  1.8007295  2.4012334  3.0005794 ]]
+seq_num:  10
+seq_name:  capsulemachine_use_01
+init_frame:  43
+grasp_frame:  417
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10369932 0.25332654 1.8032624  2.4031336  3.0078182 ]]
+average simulated distance:  [[0.00341895 0.0037697  0.00272711 0.00246629 0.00233278]]
+final angle differnence:  [[0.10029199 0.2501056  1.8013726  2.4007468  3.0004437 ]]
+seq_num:  9
+seq_name:  capsulemachine_use_01
+init_frame:  34
+grasp_frame:  62
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10317253 0.25291392 1.8023834  2.4024851  3.0021846 ]]
+average simulated distance:  [[0.00418823 0.00419072 0.00418155 0.00417936 0.00418116]]
+final angle differnence:  [[0.1000176  0.25011718 1.8004208  2.4008343  3.0007854 ]]
+seq_num:  8
+seq_name:  capsulemachine_use_01
+init_frame:  262
+grasp_frame:  256
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10547788 0.26610437 1.7997168  2.4118903  3.0010428 ]]
+average simulated distance:  [[0.0035833  0.00362029 0.00352151 0.10897311 0.00342055]]
+final angle differnence:  [[0.10332474 0.2829229  1.7974628  2.3226047  3.0035858 ]]
+seq_num:  5
+seq_name:  capsulemachine_use_01
+init_frame:  34
+grasp_frame:  52
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.1008131 0.2507706 1.8008878 2.4008737 3.000877 ]]
+average simulated distance:  [[0.00357906 0.00358186 0.00361587 0.00361319 0.00362273]]
+final angle differnence:  [[0.10043257 0.25070274 1.8006858  2.4005022  3.000869  ]]
+seq_num:  5
+seq_name:  capsulemachine_use_01
+init_frame:  34
+grasp_frame:  283
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10079624 0.2508022  1.8008724  2.4008195  3.000869  ]]
+average simulated distance:  [[0.00352758 0.00351855 0.00352203 0.00354285 0.00353765]]
+final angle differnence:  [[0.10076864 0.25016052 1.8001281  2.4006505  3.001214  ]]
+seq_num:  5
+seq_name:  capsulemachine_use_02
+init_frame:  233
+grasp_frame:  241
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10290942 0.2528473  1.8028833  2.403221   3.0030327 ]]
+average simulated distance:  [[0.00298995 0.00298897 0.0029912  0.00299171 0.00298945]]
+final angle differnence:  [[0.10100313 0.25152227 1.8006023  2.401589   3.000293  ]]
+seq_num:  9
+seq_name:  capsulemachine_use_04
+init_frame:  20
+grasp_frame:  232
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10279842 0.25262198 1.8023843  2.4025207  3.0024173 ]]
+average simulated distance:  [[0.00398933 0.00398957 0.00398776 0.00399406 0.00399315]]
+final angle differnence:  /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/helper/raisim_gym_helper.py:66: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(weight_path, map_location=torch.device('cpu') )
+[[0.10088851 0.250473   1.8015794  2.4008934  3.001032  ]]
+seq_num:  9
+seq_name:  capsulemachine_use_03
+init_frame:  20
+grasp_frame:  97
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.1024157  0.25259778 1.8076481  2.4059472  3.0038638 ]]
+average simulated distance:  [[0.00397762 0.0038595  0.00400061 0.00403639 0.0040486 ]]
+final angle differnence:  [[0.10097099 0.2532636  1.806422   2.4007912  3.0006742 ]]
+seq_num:  9
+seq_name:  capsulemachine_use_02
+init_frame:  20
+grasp_frame:  262
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10360423 0.25307274 1.8031856  2.403878   3.0051692 ]]
+average simulated distance:  [[0.0021683  0.00215309 0.0021502  0.0021574  0.00218868]]
+final angle differnence:  [[0.09835354 0.25179937 1.8004522  2.4010115  3.0014243 ]]
+seq_num:  9
+seq_name:  capsulemachine_use_04
+init_frame:  20
+grasp_frame:  151
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10270012 0.2529218  1.8025173  2.402864   3.002804  ]]
+average simulated distance:  [[0.00408037 0.0040798  0.00407783 0.00408004 0.00407346]]
+final angle differnence:  [[0.10057501 0.250583   1.8000575  2.4014888  3.0013304 ]]
+seq_num:  8
+seq_name:  capsulemachine_use_02
+init_frame:  20
+grasp_frame:  617
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10312503 0.25349277 1.806324   2.4026163  3.002264  ]]
+average simulated distance:  [[0.00433465 0.004335   0.00432508 0.00586186 0.00425308]]
+final angle differnence:  [[0.1008382 0.2511505 1.8005623 2.4006412 3.0009682]]

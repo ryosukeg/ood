@@ -1,0 +1,247 @@
+Configuration file: "cfg_reg.yaml"
+Experiment name: "floating_evaluation"
+pos_bias:  [[ 4.10885062e-02 -6.90639859e-02 -1.37707943e-01]
+ [-1.45041709e-01  9.39810718e-02  1.23826673e-01]
+ [ 3.19907327e-02  6.88489683e-02  1.30874974e-02]
+ [ 1.30521727e-01  9.47560662e-02 -1.49178450e-01]
+ [ 1.07221283e-01 -1.39924327e-01  6.88966339e-02]
+ [-9.73033138e-02  1.08953677e-01  1.24383661e-02]
+ [-6.00864328e-02 -2.31938336e-02 -1.41504099e-01]
+ [-1.12715017e-01  5.11873244e-02  4.41568535e-02]
+ [ 3.46155334e-02 -3.48967337e-02  1.49162981e-01]
+ [ 1.44250602e-01  5.56625953e-02  4.51377829e-02]
+ [ 5.65340192e-02 -3.33235728e-02 -1.09471048e-01]
+ [ 6.64465021e-02  7.60629674e-03 -5.69274373e-02]
+ [-4.24939235e-03  1.16846350e-01  1.30213055e-01]
+ [-4.26614410e-02  2.14589492e-02 -5.34391827e-02]
+ [ 2.82900091e-02 -4.86266323e-02 -3.25142998e-02]
+ [ 1.17082306e-01 -8.18527219e-02  3.69561434e-02]
+ [-1.24795397e-01  9.97932443e-02  8.61294922e-02]
+ [-7.81891671e-02  1.12945269e-01 -1.32429590e-01]
+ [-4.91648818e-02 -1.04916160e-01 -1.48981900e-02]
+ [ 8.88972811e-02 -8.08073373e-02 -1.34393610e-01]
+ [-2.86344481e-02 -9.04460866e-02 -1.22774086e-01]
+ [ 2.40997158e-02 -6.03911602e-02  5.15984634e-02]
+ [-9.01453668e-02  1.32633933e-01 -4.04669495e-02]
+ [-1.18351416e-01  3.87324455e-02  1.28146366e-01]
+ [-1.78868536e-02  1.36377148e-01 -3.12558937e-05]
+ [-2.24314125e-02  3.60640356e-02  1.48528952e-01]
+ [ 1.34683102e-01 -1.19864582e-02  7.73186536e-02]
+ [-7.73191354e-04  8.79364806e-03  8.57357102e-02]
+ [-2.56032452e-02  7.03450715e-02  6.33428634e-02]
+ [ 1.29617906e-01 -1.15520210e-01  6.87045351e-02]]
+angle_bias:  [[ 0.25645436  0.28075571 -0.29117622]
+ [ 0.21818405  0.28871702  0.27432611]
+ [-0.21074159  0.28357729  0.23396133]
+ [ 0.1934243  -0.01200725 -0.16057625]
+ [ 0.18112835  0.2541181  -0.14032184]
+ [ 0.02336064 -0.0343483   0.25861039]
+ [-0.27569357  0.13920372  0.06862395]
+ [-0.28298078  0.13153186 -0.29040496]
+ [ 0.1547706   0.00765523  0.25746253]
+ [-0.2603505   0.20479037 -0.25998599]
+ [-0.09341401 -0.04182076  0.27963725]
+ [ 0.03733911 -0.14468124 -0.15499457]
+ [ 0.23287099 -0.16447834 -0.22526718]
+ [-0.12700155  0.05167384  0.0324543 ]
+ [ 0.18582647  0.03628557 -0.12694727]
+ [-0.05226219  0.19087258  0.07590388]
+ [ 0.27544659 -0.07835735  0.03156691]
+ [ 0.05635452  0.20897472 -0.21271588]
+ [-0.0560938   0.24597538 -0.27415987]
+ [ 0.19362377 -0.05076958  0.19788239]
+ [-0.29402726 -0.08097231 -0.25282198]
+ [ 0.09156875 -0.13569054  0.12159124]
+ [ 0.26628086 -0.22390974  0.21886698]
+ [-0.26432151 -0.0715377  -0.04213556]
+ [-0.00669027  0.28587739  0.16541471]
+ [-0.11468558 -0.13809793  0.21787212]
+ [ 0.2287843   0.0064239  -0.09342256]
+ [ 0.29695041 -0.11043387 -0.19037257]
+ [ 0.22805887  0.18740124  0.10073364]
+ [ 0.27504818  0.25542875  0.1489491 ]]
+test set
+waffleiron
+21
+15
+ 
+seq_num:  6
+seq_name:  waffleiron_use_02
+init_frame:  591
+grasp_frame:  600
+kind:  right_arti
+['waffleiron', 'waffleiron', 'waffleiron', 'waffleiron', 'waffleiron']
+num envs 5
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-12-41/../../../general_two/2023-05-15-10-18-54/full_350_l.pt
+
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-12-41/../../../general_two/2023-05-15-10-18-54/full_350_r.pt
+
+seq_num:  6
+seq_name:  waffleiron_use_02
+init_frame:  591
+grasp_frame:  600
+kind:  right_arti
+end
+succeed once:  [[1. 0. 1. 1. 1.]]
+succeed:  [[1. 0. 1. 1. 1.]]
+average angle differnence:  [[0.13476902 0.07567057 1.5482742  2.151119   2.715289  ]]
+average simulated distance:  [[0.00369268 0.0038631  0.00516238 0.00381401 0.02931589]]
+final angle differnence:  [[0.22273497 0.01065273 0.8480152  1.4237736  1.4097437 ]]
+seq_num:  4
+seq_name:  waffleiron_use_01
+init_frame:  161
+grasp_frame:  173
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  [[0.03723704 0.23115666 0.69905967 2.3378136  1.5722643 ]]
+average simulated distance:  [[0.00568935 0.0128605  0.00739632 0.00653253 0.09690801]]
+final angle differnence:  [[0.02118691 0.24967463 0.07718945 2.202185   0.63220406]]
+seq_num:  8
+seq_name:  waffleiron_use_01
+init_frame:  154
+grasp_frame:  177
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 1.]]
+succeed:  [[0. 0. 1. 1. 1.]]
+average angle differnence:  [[0.09005642 0.23928675 1.1809427  1.7625647  2.9028432 ]]
+average simulated distance:  [[0.07387052 0.04857614 0.05788067 0.0700798  0.013187  ]]
+final angle differnence:  [[0.02781211 0.18138891 1.0579758  1.810729   2.3487747 ]]
+seq_num:  2
+seq_name:  waffleiron_use_02
+init_frame:  437
+grasp_frame:  463
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  [[0.08994326 0.22475156 0.93767333 1.727698   1.6609802 ]]
+average simulated distance:  [[0.04980358 0.0134285  0.02660571 0.0414133  0.01665549]]
+final angle differnence:  [[0.09981044 0.2447214  0.29438403 2.377776   0.5863913 ]]
+seq_num:  8
+seq_name:  waffleiron_use_04
+init_frame:  339
+grasp_frame:  358
+kind:  right_arti
+end
+succeed once:  [[0. 1. 1. 0. 1.]]
+succeed:  [[0. 0. 0. 0. 1.]]
+average angle differnence:  [[0.07346928 0.09430064 1.5869511  1.1990381  2.4056177 ]]
+average simulated distance:  [[0.01486959 0.00492116 0.0695959  0.03476927 0.02183973]]
+final angle differnence:  [[0.07062473 0.10075759 1.8002889  0.22451845 2.570043  ]]
+seq_num:  5
+seq_name:  waffleiron_use_02
+init_frame:  28
+grasp_frame:  107
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.05470825 0.0885828  0.546573   0.7043771  1.1039888 ]]
+average simulated distance:  [[0.03736973 0.01196551 0.0336118  0.01385238 0.01454881]]
+final angle differnence:  [[0.05206994 0.15785024 0.463666   0.1126542  0.01082784]]
+seq_num:  9
+seq_name:  waffleiron_use_04
+init_frame:  20
+grasp_frame:  100
+kind:  right_arti
+end
+succeed once:  [[0. 1. 1. 1. 0.]]
+succeed:  [[0. 1. 0. 0. 0.]]
+average angle differnence:  [[0.7477434 0.6490456 1.6775718 2.2090864 1.3393002]]
+average simulated distance:  [[0.01825463 0.01191878 0.16876277 0.10262523 0.03651033]]
+final angle differnence:  [[2.0635514 0.9508433 1.8010557 2.4029849 0.3043796]]
+seq_num:  1
+seq_name:  waffleiron_use_01
+init_frame:  20
+grasp_frame:  260
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 1.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.08104005 0.17269382 1.8004827  2.400555   2.9403777 ]]
+average simulated distance:  [[0.00496143 0.00476544 0.00549991 0.00551742 0.00547287]]
+final angle differnence:  [[0.0166699  0.12255243 1.8051124  2.4000118  3.0253742 ]]
+seq_num:  10
+seq_name:  waffleiron_use_01
+init_frame:  20
+grasp_frame:  265
+kind:  right_arti
+end
+succeed once:  [[0. 1. 1. 0. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  [[0.05344004 0.05946156 1.2572446  1.1790155  1.6328107 ]]
+average simulated distance:  [[0.00285158 0.00265783 0.00257591 0.04128425 0.02564317]]
+final angle differnence:  [[0.1117539  0.02358832 0.74151653 0.14419042 0.02101521]]
+seq_num:  8
+seq_name:  waffleiron_use_02
+init_frame:  20
+grasp_frame:  263
+kind:  right_arti
+end
+succeed once:  [[0. 1. 1. 0. 0.]]
+succeed:  [[0. 1. 1. 0. 0.]]
+average angle differnence:  [[0.09409234 0.10048153 0.5260816  0.9607705  0.9988614 ]]
+average simulated distance:  [[0.01363658 0.00795546 0.02974907 0.01125386 0.02873655]]
+final angle differnence:  [[0.05109259 0.08036449 0.11757962 0.34161544 0.17643648]]
+seq_num:  8
+seq_name:  waffleiron_use_02
+init_frame:  20
+grasp_frame:  364
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 1. 0.]]
+succeed:  [[0. 0. 0. 1. 0.]]
+average angle differnence:  [[0.10235815 0.2509182  1.794209   1.3930776  3.000615  ]]
+average simulated distance:  [[0.00981809 0.005165   0.00516038 0.05036011 0.00531256]]
+final angle differnence:  [[0.10491088 0.25072503 1.758342   1.991729   3.000295  ]]
+seq_num:  9
+seq_name:  waffleiron_use_03
+init_frame:  20
+/home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/helper/raisim_gym_helper.py:66: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(weight_path, map_location=torch.device('cpu') )
+grasp_frame:  254
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10560235 0.22918323 1.7846075  2.4010446  3.0009515 ]]
+average simulated distance:  [[0.0043426  0.00462974 0.00491011 0.00425654 0.00425087]]
+final angle differnence:  [[0.10785918 0.25037608 1.8087921  2.4006345  3.001659  ]]
+seq_num:  8
+seq_name:  waffleiron_use_03
+init_frame:  20
+grasp_frame:  494
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10054604 0.25042024 1.8011448  2.4014702  3.00189   ]]
+average simulated distance:  [[0.00424975 0.00420748 0.00450874 0.00449139 0.00450241]]
+final angle differnence:  [[0.1004065  0.25065795 1.8007107  2.402141   3.0024242 ]]
+seq_num:  1
+seq_name:  waffleiron_use_02
+init_frame:  20
+grasp_frame:  123
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 1.]]
+succeed:  [[0. 0. 1. 1. 1.]]
+average angle differnence:  [[0.0872286  0.23460276 1.5010493  2.0818017  2.5364904 ]]
+average simulated distance:  [[0.0527898  0.05272505 0.0197507  0.02275952 0.01643853]]
+final angle differnence:  [[0.07049038 0.2127538  1.424318   1.598044   2.1407034 ]]
+seq_num:  4
+seq_name:  waffleiron_use_01
+init_frame:  20
+grasp_frame:  260
+kind:  right_arti
+end
+succeed once:  [[1. 1. 0. 0. 0.]]
+succeed:  [[1. 1. 0. 0. 0.]]
+average angle differnence:  [[0.1218216  0.20828041 1.7953457  2.3992162  1.6595435 ]]
+average simulated distance:  [[0.08053117 0.11043169 0.00195226 0.00157122 0.07024893]]
+final angle differnence:  [[0.4125573  0.7696271  1.7975848  2.4012427  0.89779323]]

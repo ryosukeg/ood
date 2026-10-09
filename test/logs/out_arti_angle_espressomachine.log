@@ -1,0 +1,247 @@
+Configuration file: "cfg_reg.yaml"
+Experiment name: "floating_evaluation"
+pos_bias:  [[ 4.10885062e-02 -6.90639859e-02 -1.37707943e-01]
+ [-1.45041709e-01  9.39810718e-02  1.23826673e-01]
+ [ 3.19907327e-02  6.88489683e-02  1.30874974e-02]
+ [ 1.30521727e-01  9.47560662e-02 -1.49178450e-01]
+ [ 1.07221283e-01 -1.39924327e-01  6.88966339e-02]
+ [-9.73033138e-02  1.08953677e-01  1.24383661e-02]
+ [-6.00864328e-02 -2.31938336e-02 -1.41504099e-01]
+ [-1.12715017e-01  5.11873244e-02  4.41568535e-02]
+ [ 3.46155334e-02 -3.48967337e-02  1.49162981e-01]
+ [ 1.44250602e-01  5.56625953e-02  4.51377829e-02]
+ [ 5.65340192e-02 -3.33235728e-02 -1.09471048e-01]
+ [ 6.64465021e-02  7.60629674e-03 -5.69274373e-02]
+ [-4.24939235e-03  1.16846350e-01  1.30213055e-01]
+ [-4.26614410e-02  2.14589492e-02 -5.34391827e-02]
+ [ 2.82900091e-02 -4.86266323e-02 -3.25142998e-02]
+ [ 1.17082306e-01 -8.18527219e-02  3.69561434e-02]
+ [-1.24795397e-01  9.97932443e-02  8.61294922e-02]
+ [-7.81891671e-02  1.12945269e-01 -1.32429590e-01]
+ [-4.91648818e-02 -1.04916160e-01 -1.48981900e-02]
+ [ 8.88972811e-02 -8.08073373e-02 -1.34393610e-01]
+ [-2.86344481e-02 -9.04460866e-02 -1.22774086e-01]
+ [ 2.40997158e-02 -6.03911602e-02  5.15984634e-02]
+ [-9.01453668e-02  1.32633933e-01 -4.04669495e-02]
+ [-1.18351416e-01  3.87324455e-02  1.28146366e-01]
+ [-1.78868536e-02  1.36377148e-01 -3.12558937e-05]
+ [-2.24314125e-02  3.60640356e-02  1.48528952e-01]
+ [ 1.34683102e-01 -1.19864582e-02  7.73186536e-02]
+ [-7.73191354e-04  8.79364806e-03  8.57357102e-02]
+ [-2.56032452e-02  7.03450715e-02  6.33428634e-02]
+ [ 1.29617906e-01 -1.15520210e-01  6.87045351e-02]]
+angle_bias:  [[ 0.25645436  0.28075571 -0.29117622]
+ [ 0.21818405  0.28871702  0.27432611]
+ [-0.21074159  0.28357729  0.23396133]
+ [ 0.1934243  -0.01200725 -0.16057625]
+ [ 0.18112835  0.2541181  -0.14032184]
+ [ 0.02336064 -0.0343483   0.25861039]
+ [-0.27569357  0.13920372  0.06862395]
+ [-0.28298078  0.13153186 -0.29040496]
+ [ 0.1547706   0.00765523  0.25746253]
+ [-0.2603505   0.20479037 -0.25998599]
+ [-0.09341401 -0.04182076  0.27963725]
+ [ 0.03733911 -0.14468124 -0.15499457]
+ [ 0.23287099 -0.16447834 -0.22526718]
+ [-0.12700155  0.05167384  0.0324543 ]
+ [ 0.18582647  0.03628557 -0.12694727]
+ [-0.05226219  0.19087258  0.07590388]
+ [ 0.27544659 -0.07835735  0.03156691]
+ [ 0.05635452  0.20897472 -0.21271588]
+ [-0.0560938   0.24597538 -0.27415987]
+ [ 0.19362377 -0.05076958  0.19788239]
+ [-0.29402726 -0.08097231 -0.25282198]
+ [ 0.09156875 -0.13569054  0.12159124]
+ [ 0.26628086 -0.22390974  0.21886698]
+ [-0.26432151 -0.0715377  -0.04213556]
+ [-0.00669027  0.28587739  0.16541471]
+ [-0.11468558 -0.13809793  0.21787212]
+ [ 0.2287843   0.0064239  -0.09342256]
+ [ 0.29695041 -0.11043387 -0.19037257]
+ [ 0.22805887  0.18740124  0.10073364]
+ [ 0.27504818  0.25542875  0.1489491 ]]
+test set
+espressomachine
+27
+11
+ 
+seq_num:  8
+seq_name:  espressomachine_use_03
+init_frame:  28
+grasp_frame:  42
+kind:  right_arti
+['espressomachine', 'espressomachine', 'espressomachine', 'espressomachine', 'espressomachine']
+num envs 5
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-10-49/../../../general_two/2023-05-15-10-18-54/full_350_l.pt
+
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-10-49/../../../general_two/2023-05-15-10-18-54/full_350_r.pt
+
+seq_num:  8
+seq_name:  espressomachine_use_03
+init_frame:  28
+grasp_frame:  42
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 0. 0.]]
+succeed:  [[1. 1. 1. 0. 0.]]
+average angle differnence:  [[0.22804718 0.22144648 0.55790335 2.3912249  2.991244  ]]
+average simulated distance:  [[0.00723924 0.0072383  0.00754239 0.00723359 0.00724618]]
+final angle differnence:  [[0.21955809 0.19279662 0.30832562 2.3825397  2.9825923 ]]
+seq_num:  8
+seq_name:  espressomachine_use_03
+init_frame:  544
+grasp_frame:  553
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 1.]]
+succeed:  [[0. 0. 1. 1. 1.]]
+average angle differnence:  [[0.08971462 0.2306967  1.1557763  1.4000282  1.9214109 ]]
+average simulated distance:  [[0.00515353 0.00514857 0.0051502  0.00511139 0.00524074]]
+final angle differnence:  [[0.02996206 0.14436032 0.950258   1.0871766  1.5293787 ]]
+seq_num:  6
+seq_name:  espressomachine_use_04
+init_frame:  343
+grasp_frame:  350
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 1. 1.]]
+succeed:  [[1. 1. 1. 1. 1.]]
+average angle differnence:  [[0.15133628 0.14911954 0.60067594 1.1296858  1.6980048 ]]
+average simulated distance:  [[0.0048327  0.00479975 0.00509734 0.0053619  0.00542762]]
+final angle differnence:  [[0.24982774 0.21855496 0.30749166 0.89759624 1.4942852 ]]
+seq_num:  6
+seq_name:  espressomachine_use_01
+init_frame:  85
+grasp_frame:  117
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 1. 0.]]
+succeed:  [[1. 1. 1. 1. 0.]]
+average angle differnence:  [[0.13082424 0.17151596 1.3558367  1.4074615  2.9878855 ]]
+average simulated distance:  [[0.00540681 0.00540977 0.00540072 0.00594131 0.00539428]]
+final angle differnence:  [[0.43080673 0.46201098 1.0090255  0.9911662  2.9778743 ]]
+seq_num:  7
+seq_name:  espressomachine_use_01
+init_frame:  23
+grasp_frame:  125
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.09129999 0.2412936  1.6850473  2.3392243  2.9914427 ]]
+average simulated distance:  [[0.00453225 0.00453342 0.00450613 0.00455371 0.00452954]]
+final angle differnence:  [[0.08265711 0.23264068 1.7658684  2.3086355  2.9807215 ]]
+seq_num:  2
+seq_name:  espressomachine_use_01
+init_frame:  511
+grasp_frame:  525
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 1. 1.]]
+succeed:  [[1. 1. 1. 1. 1.]]
+average angle differnence:  [[0.21578634 0.22849314 0.60613316 1.0968456  1.6669197 ]]
+average simulated distance:  [[0.00310669 0.00307152 0.00298962 0.00303244 0.00324267]]
+final angle differnence:  [[0.2951182 0.3071457 0.2998583 0.9025269 1.5107374]]
+seq_num:  8
+seq_name:  espressomachine_use_01
+init_frame:  33
+grasp_frame:  71
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 1. 1.]]
+succeed:  [[1. 1. 1. 1. 1.]]
+average angle differnence:  [[0.16455387 0.16719198 0.6764619  1.1767983  1.7751663 ]]
+average simulated distance:  [[0.01102002 0.00379572 0.00442164 0.00473171 0.00443638]]
+final angle differnence:  [[0.20818657 0.1919448  0.47819057 1.0073609  1.6151302 ]]
+seq_num:  9
+seq_name:  espressomachine_use_04
+init_frame:  41
+grasp_frame:  66
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 1. 0.]]
+succeed:  [[1. 1. 1. 1. 0.]]
+average angle differnence:  [[0.09927132 0.26515314 0.5797695  2.0897462  2.9635277 ]]
+average simulated distance:  [[0.00586305 0.00574073 0.00622335 0.00556821 0.00526744]]
+final angle differnence:  [[0.21859266 0.5511234  0.32315025 0.908615   2.8303819 ]]
+seq_num:  8
+seq_name:  espressomachine_use_02
+init_frame:  102
+grasp_frame:  119
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 1. 1.]]
+succeed:  [[1. 1. 1. 1. 1.]]
+average angle differnence:  [[0.2995458  0.3448257  0.64950377 1.1811279  1.7519761 ]]
+average simulated distance:  [[0.00603924 0.00499729 0.0060792  0.00599597 0.00615175]]
+final angle differnence:  [[0.38076118 0.44552675 0.29892072 0.9806959  1.5435754 ]]
+seq_num:  8
+seq_name:  espressomachine_use_03
+init_frame:  448
+grasp_frame:  457
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.09839847 0.24819975 1.7927555  2.3912253  2.9912777 ]]
+average simulated distance:  [[0.00359164 0.00340673 0.00387765 0.00383149 0.00379854]]
+final angle differnence:  [[0.06216385 0.2205028  1.7841728  2.382602   2.9825408 ]]
+seq_num:  9
+seq_name:  espressomachine_use_03
+init_frame:  40
+grasp_frame:  492
+kind:  right_arti
+end
+succeed once:  [[0. 1. 1. 1. 0.]]
+succeed:  [[0. 1. 1. 1. 0.]]
+average angle differnence:  [[0.11358485 0.1351188  0.6254628  1.186429   2.990065  ]]
+average simulated distance:  [[0.00495666 0.00491786 0.00576085 0.00570446 0.00490561]]
+final angle differnence:  /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/helper/raisim_gym_helper.py:66: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(weight_path, map_location=torch.device('cpu') )
+[[0.14410983 0.13127062 0.29780257 0.94301385 2.981348  ]]
+seq_num:  7
+seq_name:  espressomachine_use_02
+init_frame:  478
+grasp_frame:  514
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.03994859 0.1186138  1.7270479  2.3867984  2.9899006 ]]
+average simulated distance:  [[0.00471705 0.00476741 0.00472685 0.00473504 0.00474454]]
+final angle differnence:  [[0.02268329 0.08676577 1.7151434  2.3778963  2.9812965 ]]
+seq_num:  5
+seq_name:  espressomachine_use_02
+init_frame:  368
+grasp_frame:  401
+kind:  right_arti
+end
+succeed once:  [[1. 1. 1. 0. 0.]]
+succeed:  [[1. 1. 1. 0. 0.]]
+average angle differnence:  [[0.1360252  0.09796088 1.170987   2.3911343  2.991152  ]]
+average simulated distance:  [[0.0049723  0.00496969 0.00490797 0.00496524 0.00496392]]
+final angle differnence:  [[0.23012698 0.1575071  1.0668149  2.3824837  2.9824677 ]]
+seq_num:  5
+seq_name:  espressomachine_use_01
+init_frame:  50
+grasp_frame:  65
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.07171381 0.16719523 1.682727   2.3888192  2.991297  ]]
+average simulated distance:  [[0.0049536  0.00498185 0.00498253 0.00496845 0.00496953]]
+final angle differnence:  [[0.10092659 0.21830864 1.813673   2.398936   2.982659  ]]
+seq_num:  5
+seq_name:  espressomachine_use_01
+init_frame:  356
+grasp_frame:  368
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 1.]]
+succeed:  [[0. 0. 1. 1. 1.]]
+average angle differnence:  [[0.09304897 0.22185779 0.6938426  1.1721158  1.7604012 ]]
+average simulated distance:  [[0.00398339 0.00310774 0.00494058 0.00521529 0.00593222]]
+final angle differnence:  [[0.09982736 0.04271714 0.4387128  0.91917324 1.4994899 ]]

@@ -1,0 +1,53 @@
+/home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/helper/raisim_gym_helper.py:66: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(weight_path, map_location=torch.device('cpu') )
+Configuration file: "cfg_reg.yaml"
+Experiment name: "floating_evaluation"
+test set
+microwave
+4
+11
+ 
+seq_num:  2
+seq_name:  microwave_grab_01
+init_frame:  169
+grasp_frame:  192
+kind:  two_grasp
+['microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave', 'microwave']
+num envs 44
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/compose_eval/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-25-42/../../../general_two/2023-05-15-10-18-54/full_350_l.pt
+
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/compose_eval/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-25-42/../../../general_two/2023-05-15-10-18-54/full_350_r.pt
+
+seq_num:  2
+seq_name:  microwave_grab_01
+init_frame:  169
+grasp_frame:  192
+kind:  two_grasp
+seq_num:  2
+seq_name:  microwave_use_01_retake
+init_frame:  441
+grasp_frame:  464
+kind:  right_arti
+start grasp
+start synthesis
+start synthesis
+drop object
+go to arti pos
+go to arti pos
+go to arti pos
+start arti
+end
+average success arrive rate 0.20454545454545456
+average success open rate 0.11363636363636363
+average success ori rate 1.0
+average pos error 0.08113794435154308
+average angle error 4.220969112664972e-09
+average arti angle error 0.9036150845614347
+average success rate 0.0
+ave success rate on successful arrival 0.0
+ave success rate on successful grasp 0.0
+strict Suc.T 0.0
+strict PE mean 0.10625588148832321 AE mean 0.5896571278572083 AAE mean 1.4878325462341309
+strict checks: angle 0.0 goal_pos 0.0 goal_angle 0.0 pe_env 2.9802322387695312e-08

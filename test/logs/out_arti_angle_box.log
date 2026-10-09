@@ -1,0 +1,225 @@
+Configuration file: "cfg_reg.yaml"
+Experiment name: "floating_evaluation"
+pos_bias:  [[ 4.10885062e-02 -6.90639859e-02 -1.37707943e-01]
+ [-1.45041709e-01  9.39810718e-02  1.23826673e-01]
+ [ 3.19907327e-02  6.88489683e-02  1.30874974e-02]
+ [ 1.30521727e-01  9.47560662e-02 -1.49178450e-01]
+ [ 1.07221283e-01 -1.39924327e-01  6.88966339e-02]
+ [-9.73033138e-02  1.08953677e-01  1.24383661e-02]
+ [-6.00864328e-02 -2.31938336e-02 -1.41504099e-01]
+ [-1.12715017e-01  5.11873244e-02  4.41568535e-02]
+ [ 3.46155334e-02 -3.48967337e-02  1.49162981e-01]
+ [ 1.44250602e-01  5.56625953e-02  4.51377829e-02]
+ [ 5.65340192e-02 -3.33235728e-02 -1.09471048e-01]
+ [ 6.64465021e-02  7.60629674e-03 -5.69274373e-02]
+ [-4.24939235e-03  1.16846350e-01  1.30213055e-01]
+ [-4.26614410e-02  2.14589492e-02 -5.34391827e-02]
+ [ 2.82900091e-02 -4.86266323e-02 -3.25142998e-02]
+ [ 1.17082306e-01 -8.18527219e-02  3.69561434e-02]
+ [-1.24795397e-01  9.97932443e-02  8.61294922e-02]
+ [-7.81891671e-02  1.12945269e-01 -1.32429590e-01]
+ [-4.91648818e-02 -1.04916160e-01 -1.48981900e-02]
+ [ 8.88972811e-02 -8.08073373e-02 -1.34393610e-01]
+ [-2.86344481e-02 -9.04460866e-02 -1.22774086e-01]
+ [ 2.40997158e-02 -6.03911602e-02  5.15984634e-02]
+ [-9.01453668e-02  1.32633933e-01 -4.04669495e-02]
+ [-1.18351416e-01  3.87324455e-02  1.28146366e-01]
+ [-1.78868536e-02  1.36377148e-01 -3.12558937e-05]
+ [-2.24314125e-02  3.60640356e-02  1.48528952e-01]
+ [ 1.34683102e-01 -1.19864582e-02  7.73186536e-02]
+ [-7.73191354e-04  8.79364806e-03  8.57357102e-02]
+ [-2.56032452e-02  7.03450715e-02  6.33428634e-02]
+ [ 1.29617906e-01 -1.15520210e-01  6.87045351e-02]]
+angle_bias:  [[ 0.25645436  0.28075571 -0.29117622]
+ [ 0.21818405  0.28871702  0.27432611]
+ [-0.21074159  0.28357729  0.23396133]
+ [ 0.1934243  -0.01200725 -0.16057625]
+ [ 0.18112835  0.2541181  -0.14032184]
+ [ 0.02336064 -0.0343483   0.25861039]
+ [-0.27569357  0.13920372  0.06862395]
+ [-0.28298078  0.13153186 -0.29040496]
+ [ 0.1547706   0.00765523  0.25746253]
+ [-0.2603505   0.20479037 -0.25998599]
+ [-0.09341401 -0.04182076  0.27963725]
+ [ 0.03733911 -0.14468124 -0.15499457]
+ [ 0.23287099 -0.16447834 -0.22526718]
+ [-0.12700155  0.05167384  0.0324543 ]
+ [ 0.18582647  0.03628557 -0.12694727]
+ [-0.05226219  0.19087258  0.07590388]
+ [ 0.27544659 -0.07835735  0.03156691]
+ [ 0.05635452  0.20897472 -0.21271588]
+ [-0.0560938   0.24597538 -0.27415987]
+ [ 0.19362377 -0.05076958  0.19788239]
+ [-0.29402726 -0.08097231 -0.25282198]
+ [ 0.09156875 -0.13569054  0.12159124]
+ [ 0.26628086 -0.22390974  0.21886698]
+ [-0.26432151 -0.0715377  -0.04213556]
+ [-0.00669027  0.28587739  0.16541471]
+ [-0.11468558 -0.13809793  0.21787212]
+ [ 0.2287843   0.0064239  -0.09342256]
+ [ 0.29695041 -0.11043387 -0.19037257]
+ [ 0.22805887  0.18740124  0.10073364]
+ [ 0.27504818  0.25542875  0.1489491 ]]
+test set
+box
+13
+18
+ 
+seq_num:  6
+seq_name:  box_use_01
+init_frame:  50
+grasp_frame:  69
+kind:  right_arti
+['box', 'box', 'box', 'box', 'box']
+num envs 5
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-09-59/../../../general_two/2023-05-15-10-18-54/full_350_l.pt
+
+
+loading from the checkpoint: /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/env/envs/floating_evaluation/../../../../../raisimGymTorch/data_all/floating_evaluation/eval/2026-10-08-20-09-59/../../../general_two/2023-05-15-10-18-54/full_350_r.pt
+
+seq_num:  6
+seq_name:  box_use_01
+init_frame:  50
+grasp_frame:  69
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 0.]]
+succeed:  [[0. 0. 1. 1. 0.]]
+average angle differnence:  [[0.0547347  0.19384688 0.86148334 1.3414116  3.003617  ]]
+average simulated distance:  [[0.00981319 0.009874   0.00989087 0.00986296 0.17550838]]
+final angle differnence:  [[0.03781177 0.15493645 0.11099151 0.5573124  3.029016  ]]
+seq_num:  6
+seq_name:  box_use_03
+init_frame:  23
+grasp_frame:  51
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10014904 0.2501872  1.8002089  2.4002101  3.0000894 ]]
+average simulated distance:  [[0.00584136 0.00585506 0.00591023 0.00592027 0.00585604]]
+final angle differnence:  [[0.10006361 0.2501808  1.8001057  2.400181   3.0000231 ]]
+seq_num:  10
+seq_name:  box_use_01
+init_frame:  54
+grasp_frame:  113
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10023382 0.25024316 1.8002354  2.4002736  3.0002372 ]]
+average simulated distance:  [[0.00387565 0.00390175 0.00391179 0.00377751 0.00371048]]
+final angle differnence:  [[0.10022292 0.25004375 1.7999284  2.4003367  2.9997478 ]]
+seq_num:  10
+seq_name:  box_use_02
+init_frame:  60
+grasp_frame:  163
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10034216 0.25036564 1.8005811  2.400338   3.0004666 ]]
+average simulated distance:  [[0.00299345 0.00301235 0.00305215 0.00285651 0.00296482]]
+final angle differnence:  [[0.10010348 0.250413   1.8006114  2.4002142  3.0003064 ]]
+seq_num:  5
+seq_name:  box_use_02
+init_frame:  22
+grasp_frame:  123
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.1008502  0.25092202 1.8005774  2.4005086  3.0005972 ]]
+average simulated distance:  [[0.00406362 0.00406312 0.00415618 0.00417064 0.00416117]]
+final angle differnence:  [[0.10008078 0.2500169  1.801268   2.400963   3.0013227 ]]
+seq_num:  5
+seq_name:  box_use_01
+init_frame:  28
+grasp_frame:  133
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 0. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  [[0.10316928 0.25352404 0.4701295  0.8941374  3.0010123 ]]
+average simulated distance:  [[0.06172159 0.05442094 0.01446593 0.00584909 0.00471025]]
+final angle differnence:  [[0.10432709 0.2557775  0.03976158 0.30343282 3.001045  ]]
+seq_num:  8
+seq_name:  box_use_01
+init_frame:  20
+grasp_frame:  513
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 0. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  [[0.10376057 0.11563862 0.6878258  0.88878685 3.0005314 ]]
+average simulated distance:  [[0.03978099 0.00706984 0.00588446 0.00905794 0.00425645]]
+final angle differnence:  [[0.1018781  0.1253794  0.28682536 0.15265581 3.0004697 ]]
+seq_num:  6
+seq_name:  box_use_01
+init_frame:  20
+grasp_frame:  344
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 0. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  [[0.09734491 0.1727815  1.7757986  1.4161023  1.5092953 ]]
+average simulated distance:  [[0.00544756 0.00545216 0.03541056 0.01340915 0.00533074]]
+final angle differnence:  [[0.10035464 0.25325876 0.90381014 0.05525016 0.4082687 ]]
+seq_num:  1
+seq_name:  box_use_01
+init_frame:  20
+grasp_frame:  154
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10015065 0.25016174 1.8001686  2.3988605  3.0001774 ]]
+average simulated distance:  [[0.00502239 0.00503286 0.00514174 0.00527483 0.00516871]]
+final angle differnence:  [[0.10004123 0.25001615 1.8003056  2.400308   3.0001805 ]]
+seq_num:  10
+seq_name:  box_use_02
+init_frame:  20
+grasp_frame:  385
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 1. 0.]]
+succeed:  [[0. 0. 1. 1. 0.]]
+average angle differnence:  [[0.06000465 0.12732476 0.763685   1.1900545  1.5509402 ]]
+average simulated distance:  [[0.00382556 0.00321867 0.00404505 0.00788586 0.00453253]]
+final angle differnence:  [[0.05130608 0.12041282 0.28158742 0.49369475 0.5951374 ]]
+seq_num:  4
+seq_name:  box_use_02
+init_frame:  20
+grasp_frame:  498
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 0. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  [[0.0706185  0.13538352 0.7989858  1.1143486  1.2825687 ]]
+average simulated distance:  [[0.01221741 0.00284896 0.0036511  0.00359672 0.00440627]]
+final angle differnence:  [[0.07721397 0.09300163 0.25557232 0.17958745 0.08719745]]
+seq_num:  8
+seq_name:  box_use_02
+init_frame:  20
+grasp_frame:  596
+kind:  right_arti
+end
+succeed once:  [[0. 0. 1. 0. 0.]]
+succeed:  [[0. 0. 1. 0. 0.]]
+average angle differnence:  /home/cvrt/goto/artigrasp/raisimGymTorch/raisimGymTorch/helper/raisim_gym_helper.py:66: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(weight_path, map_location=torch.device('cpu') )
+[[0.10262471 0.25426468 0.7296414  0.81509215 3.0008218 ]]
+average simulated distance:  [[0.04180608 0.17956296 0.01435554 0.01147636 0.01105453]]
+final angle differnence:  [[0.10503969 0.25428137 0.4060156  0.04073309 3.000754  ]]
+seq_num:  4
+seq_name:  box_use_01
+init_frame:  20
+grasp_frame:  441
+kind:  right_arti
+end
+succeed once:  [[0. 0. 0. 0. 0.]]
+succeed:  [[0. 0. 0. 0. 0.]]
+average angle differnence:  [[0.10264759 0.2535764  0.6729162  0.93629396 3.0005047 ]]
+average simulated distance:  [[0.0790106  0.00832855 0.01132489 0.02798152 0.01254248]]
+final angle differnence:  [[0.10326687 0.24971372 0.33591735 0.03958755 3.0003872 ]]
